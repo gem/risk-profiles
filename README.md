@@ -64,38 +64,9 @@ The following countries/territories are covered in this repository, organized by
 | South_Asia                | Afghanistan, Bangladesh, Bhutan, India, Nepal, Pakistan, Sri_Lanka |
 | Southeast_Asia            | Brunei, Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand, Timor_Leste, Vietnam |
 
-# Explanation of exposure model content
+# Explanation of profile content
 
-## Definition of column headers
-
-Each exposure csv contains the following column headers, as briefly defined below
-
-- **ASSET_ID**: Unique identifier for an asset, which comprises a group of buildings sharing similar attributes and location
-- **ID_1**: ID for the first administrative level, matches either the ID used in the national census or in the administrative division boundary vector files, or both
-- **NAME_1**: Name of the first administrative level
-- **ID_2**: ID for the second administrative level
-- **NAME_2**: Name of the second administrative level
-- ⋮
-- **LONGITUDE**, **LATITUDE**: Geographical coordinates assigned to the asset for risk calculations. In general, these locations do not represent building-specific geolocations, but are either aggregated at a representative point for the lowest administrative level or are the result of the spatial disaggregation algorithm (and thus still represent aggregated assets, but at a finer resolution)
-- **OCCUPANCY**: The primary occupancy class: Res for residential, Com for commercial, and Ind for industrial
-- **TAXONOMY**: Building taxonomy string that is used for mapping vulnerability functions for the asset
-- **BUILDINGS**: The total number of buildings comprising the asset
-- **TOTAL_AREA_SQM**: The total floor area comprising the asset (sq.m.)
-- **COST_PER_AREA_USD**: The average replacement cost per unit area (in 2021 US$/sq.m., including the structural and nonstructural components, but not the building contents) 
-- **TOTAL_REPL_COST_USD**: The total replacement cost for the asset (in 2021 US$, including the structural, nonstructural components, and building contents) 
-- **COST_STRUCTURAL_USD**: The cost of structural components in each asset
-- **COST_NONSTRUCTURAL_USD**: The cost of nonstructural components in each asset
-- **COST_CONTENTS_USD**: The cost of contents in each asset
-- **OCCUPANTS_PER_ASSET**: The number of residents in each residential asset
-- **OCCUPANTS_PER_ASSET_DAY**: The average number of occupants in each asset (residential, commercial, industrial) during the day time period
-- **OCCUPANTS_PER_ASSET_TRANSIT**: The average number of occupants in each asset (residential, commercial, industrial) during the transit time period
-- **OCCUPANTS_PER_ASSET_NIGHT**: The average number of occupants in each asset (residential, commercial, industrial) during the night time period
-- **OCCUPANTS_PER_ASSET_AVERAGE**: The time-averaged number of occupants in each asset (residential, commercial, industrial) 
-
-## Where can I find additional information on the defined building classes?
-
-The building classes defined within this exposure model follow the GEM Taxonomy convention. Please refer to the [GEM Taxonomy Glossary](https://taxonomy.openquake.org/) for additional details on taxonomy substrings.
-
+TODO
 
 # 📚 Publications
 
