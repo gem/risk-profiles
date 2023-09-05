@@ -53,6 +53,6 @@ The risk results are the results of an event-based risk analysis, where 100,000 
 
 [^1]: National Geophysical Data Center / World Data Service (NGDC/WDS): NCEI/WDS Global Significant Earthquake Database. NOAA National Centers for Environmental Information. doi:[10.7289/V5TD9V7K](https://doi.org/10.7289/V5TD9V7K)
 
-[2^]: EM-DAT: The International Disaster Database EM-DAT. (2008) Available at: [https://www.emdat.be/](https://www.emdat.be/)
+[^2]: EM-DAT: The International Disaster Database EM-DAT. (2008) Available at: [https://www.emdat.be/](https://www.emdat.be/)
 
-[3^]: World Development Indicators. Washington, D.C.:The World Bank. Available at: [https://databank.worldbank.org/source/world-development-indicators](https://databank.worldbank.org/source/world-development-indicators)
+[^3]: World Development Indicators. Washington, D.C.:The World Bank. Available at: [https://databank.worldbank.org/source/world-development-indicators](https://databank.worldbank.org/source/world-development-indicators)
