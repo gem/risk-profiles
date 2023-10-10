@@ -1,4 +1,4 @@
-# Global Risk Profiles
+# Global Seismic Risk Profiles
 
 <div align='center'>
 
@@ -26,9 +26,9 @@
 
 # ✨ Overview
 
-> The v2023.0.0 release for the GEM's global earthquake risk profiles is now available! 🥳 🚀
+> The v2023.0.0 release for the GEM's global seismic risk profiles is now available! 🥳 🚀
 
-This repository hosts the global earthquake risk profiles for the world.
+This repository hosts the global seismic risk profiles for the world. These seismic risk profiles have been produced with the outputs from the 2023 Global Seismic Risk Model of the GEM Foundation. Useful information about the underlying datasets and overall methodology can be found in the [Global Seismic Risk Model documentation](https://docs.openquake.org/global_risk_model/).
 
 
 # 🚀 Model versions  
@@ -64,16 +64,37 @@ The following countries/territories are covered in this repository, organized by
 | South_Asia                | Afghanistan, Bangladesh, Bhutan, India, Nepal, Pakistan, Sri_Lanka |
 | Southeast_Asia            | Brunei, Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand, Timor_Leste, Vietnam |
 
-# Explanation of profile content
+# 📋 Explanation of profile content
 
-TODO
+The GEM Foundation has produced a collection of Country/Territory Seismic Risk Profiles that summarize key metrics of seismic risk, to provide stakeholders in risk management an overview of the risk in a region at-a-glance. Each profile presents the following relavant information:
+
+* Social indicators, which provide context to the region in question 
+* Risk indicators, detailing an occupancy breakdown of exposed value and losses
+* A list of the major earthquakes that have impacted the region
+* Loss per region, providing a breakdown of average annual losses per Administrative level 1
+* Building classes, depicting the major construction materials used in the region
+* Loss curves, which provide expected losses per different return periods
+* Maps depicting the geographical distribution of hazard, exposure and losses
+
+The risk results are the results of an event-based risk analysis, where 100,000 years of earthquakes are simulated. Three lines of business are considered: residential, commercial, and industrial. Therefore, value or earthquake losses to other building occupancies (e.g., schools, healthcare) and infrastructure are not included.
+
+# 👨‍👩‍👧‍👦 Related datasets and resources
+
+Users interested in these seismic risk profiles, might find the following GEM Foundation products useful:
+
+* [Global Seismic Risk Map](https://www.globalquakemodel.org/products/global-seismic-risk-map)
+* [Global Seismic Hazard Map](https://www.globalquakemodel.org/products2023/global-seismic-hazard-map)
+* [Global Exposure Model](https://www.globalquakemodel.org/products/global-exposure-model)
+* [Global Vulnerability Model](https://www.globalquakemodel.org/products/global-vulnerability-model)
+* [OpenQuake engine](https://www.globalquakemodel.org/products/openquake-engine)
 
 # 📚 Publications
 
 Please cite the work as follows:
-TODO
 
-TODO: Repository DOI (Zenodo)
+V. Silva, A. Calderon, M. Caruso, C. Costa, J. Dabbeek, M.C. Hoyos, Z. Karimzadeh, L. Martins, N. Paul, A. Rao, M. Simionato, C. Yepes-Estrada, H. Crowley, K. Jaiswal (2023), Country/Territory Seismic Risk Profiles of the GEM Foundation, GitHub. https://github.com/gem/risk-profiles/
+
+DOI:
 
 
 # 🌟 Contributors 
@@ -81,11 +102,15 @@ TODO: Repository DOI (Zenodo)
 The authors are grateful for the input from dozens of local and international experts. A list of contributors can be found at https://www.globalquakemodel.org/risk-model-contributors.
 
 
-# License
+# 📃 License
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
 This work is licensed under a
-[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa], which requires:
+
+* Attribution (you must give appropriate credit, provide a link to the license, and indicate if changes were made)
+* Non-commercial (you may not use the material for commercial purposes)
+* ShareAlike (derivatives created must be made available under the same license as the original)
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
 
@@ -93,8 +118,13 @@ This work is licensed under a
 [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
 [cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
 
+Any deviation from these terms incur in license infringement. For commercial use of the data contained within this work, a specific license agreement must be made tailored to your use case, in such instance please contact GEM at product@globalquakemodel.org
+
 
 # 🤔 Frequently asked questions 
+
+### Where can I find documentation related to this product?
+Useful information about the underlying datasets and overall methodology can be found in the [Global Seismic Risk Model documentation](https://docs.openquake.org/global_risk_model/).
 
 ### Which version am I seeing? How to change the version?
 By default you will see the files in the repository in the  `master` branch. Each version of the model that is released can be accessed is marked with a `tag`. By changing the tag version at the top of the repository, you can change see the files for a given version.
