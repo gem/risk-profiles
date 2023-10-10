@@ -18,10 +18,6 @@
 <img src='https://img.shields.io/badge/Global_Exposure_Model-orange?style=for-the-badge'>
 </a>
 
-<a href='https://github.com/gem/global_exposure_model'>
-<img src='https://img.shields.io/badge/Global_Exposure_Model-orange?style=for-the-badge'>
-</a>
-
 <a href='LICENSE.txt'>
 <img src='https://img.shields.io/badge/LICENSE-blue?style=for-the-badge'>
 </a>
