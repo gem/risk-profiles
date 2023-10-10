@@ -97,9 +97,9 @@ This work is licensed under a
 # 🤔 Frequently asked questions 
 
 ### Which version am I seeing? How to change the version?
-By default you will see the files in the repository in the  `main` branch. Each version of the model that is released can be accessed is marked with a `tag`. By changing the tag version at the top of the repository, you can change see the files for a given version.
+By default you will see the files in the repository in the  `master` branch. Each version of the model that is released can be accessed is marked with a `tag`. By changing the tag version at the top of the repository, you can change see the files for a given version.
 
-Note that the `main` branch could contain the work-in-progress of the next version of the model.
+Note that the `master` branch could contain the work-in-progress of the next version of the model.
 
 ### How do I download the data for a given version?
 For each version, a related zip file is available in the [release section](https://github.com/gem/risk-profiles/releases).
