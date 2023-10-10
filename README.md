@@ -18,6 +18,10 @@
 <img src='https://img.shields.io/badge/Global_Exposure_Model-orange?style=for-the-badge'>
 </a>
 
+<a href='https://github.com/gem/global_exposure_model'>
+<img src='https://img.shields.io/badge/Global_Exposure_Model-orange?style=for-the-badge'>
+</a>
+
 <a href='LICENSE.txt'>
 <img src='https://img.shields.io/badge/LICENSE-blue?style=for-the-badge'>
 </a>
@@ -39,7 +43,9 @@ The `master` branch could contain the work-in-progress of the next version of th
 | Version   | Release Notes                                                            |
 |-----------|--------------------------------------------------------------------------|
 | v2018.0.0 | Original version within the larger 2018 Global Risk Model release.       |
-| [v2023.0.0](https://github.com/gem/risk-profiles/tree/v2023.0.0) | Release of the Global Risk Model (June 2023). |
+| [v2023.0.0](https://github.com/gem/risk-profiles/tree/v2023.0.0) | Release of the Global Risk Model (June 2023). This uses the exposure version `v2023.1.0`, vulnerability version `v2023.0.0`, and the relevant hazard mosaic versions indicated per the global hazard map `v2023.1`. |
+
+Note that the risk version is not 1:1 with the versioning of the underpinning hazard, exposure, and vulnerability model inputs used.
 
 # 🌍 Region and country list
 
@@ -66,21 +72,21 @@ The following countries/territories are covered in this repository, organized by
 
 # 📋 Explanation of profile content
 
-The GEM Foundation has produced a collection of Country/Territory Seismic Risk Profiles that summarize key metrics of seismic risk, to provide stakeholders in risk management an overview of the risk in a region at-a-glance. Each profile presents the following relavant information:
+The GEM Foundation has produced a collection of Country/Territory Seismic Risk Profiles that summarize key metrics of seismic risk, allowing stakeholders in risk management to get an overview of the risk in a region at-a-glance. Each profile presents the following relevant information:
 
 * Social indicators, which provide context to the region in question 
 * Risk indicators, detailing an occupancy breakdown of exposed value and losses
 * A list of the major earthquakes that have impacted the region
-* Loss per region, providing a breakdown of average annual losses per Administrative level 1
+* Loss per region, providing a breakdown of average annual losses per administrative level 1
 * Building classes, depicting the major construction materials used in the region
 * Loss curves, which provide expected losses per different return periods
-* Maps depicting the geographical distribution of hazard, exposure and losses
+* Maps depicting the geographical distribution of hazard, exposure, and losses
 
-The risk results are the results of an event-based risk analysis, where 100,000 years of earthquakes are simulated. Three lines of business are considered: residential, commercial, and industrial. Therefore, value or earthquake losses to other building occupancies (e.g., schools, healthcare) and infrastructure are not included.
+The risk values presented are the results of an event-based risk analysis, where 100,000 years of earthquakes are simulated. Three lines of business are considered: residential, commercial, and industrial. Therefore, the value or earthquake losses from damage to other building occupancies (e.g., schools, healthcare) and infrastructure are not included.
 
 # 👨‍👩‍👧‍👦 Related datasets and resources
 
-Users interested in these seismic risk profiles, might find the following GEM Foundation products useful:
+Users interested in these seismic risk profiles might find the following GEM Foundation products useful:
 
 * [Global Seismic Risk Map](https://www.globalquakemodel.org/products/global-seismic-risk-map)
 * [Global Seismic Hazard Map](https://www.globalquakemodel.org/products2023/global-seismic-hazard-map)
