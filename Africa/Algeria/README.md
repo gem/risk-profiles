@@ -1,9 +1,9 @@
 # Algeria
 
 ## Profile
-![](country_profile_Algeria.png)
+![](seismic_risk_profile_Algeria.png)
 
-## Explanation
+## Overview
 
 ### Major earthquakes
 
@@ -13,12 +13,12 @@ In general, the major earthquakes shown in each profile are those that incurred 
 
 In general, the World Bank's World Development Indicators (WDI)[^3] were used as the source of the social indicators presented. For some countries and territories, data was not available. In these cases, available national statistics were investigated. Where national statistics were unavailable, alternate sources may be used.
 
-- **Population:** The estimated population for the entire country/territory in the year `YEARREF`.
-- **Population growth:** The estimated population growth between `YEARREF` to `YEARREF`.
-- **Gross domestic product (GDP):** The gross domestic product is a measure of the health of a country/territory's economy, based on the market value of finished goods and services produced within its boundaries. The values shown are for the year `YEARREF`.
-- **GDP per capita:** The estimated gross domestic product for the entire country/territory normalized by the total population (i.e., breaking down the value per person). The values shown are for the year `YEARREF`.
-- **Gini index:** The Gini index measures income/wealth inequality, with values ranging from 0% (perfect equality) to 100% (perfect inequality). The values shown are for the year `YEARREF`.
-- **Human Development Index:**  The Human Development Index aims to quantify key dimensions of human development: a long and healthy life, knowledge, and a decent standard of living. Values range from 0 (low human development) to 1 (high humand development). The values shown are for the year `YEARREF`.
+- **Population:** The estimated population for the entire country/territory. The values shown are for year 2021.
+- **Population growth:** The estimated annual population growth. The values shown are for year 2021.
+- **Gross domestic product (GDP):** The gross domestic product is a measure of the health of a country/territory's economy, based on the market value of finished goods and services produced within its boundaries. The values shown are for year 2021.
+- **GDP per capita:** The estimated gross domestic product for the entire country/territory normalized by the total population (i.e., breaking down the value per person). The values shown are for year 2021.
+- **Gini index:** The Gini index measures income/wealth inequality, with values ranging from 0% (perfect equality) to 100% (perfect inequality). The values shown are for year 2021.
+- **Human Development Index:**  The Human Development Index aims to quantify key dimensions of human development: a long and healthy life, knowledge, and a decent standard of living. Values range from 0 (low human development) to 1 (high humand development). The values shown are for year 2021.
 
 ### Risk indicators
 
@@ -48,6 +48,19 @@ The risk results are the results of an event-based risk analysis, where 100,000 
 - **Loss by region:** The average annual loss (AAL) by subnational boundary. Note that the boundary names presented may not exactly match current convention.
 - **Building classes:** The proportion of the  building stock in terms of count and replacement value distributed to different macrotaxonomy classes: adobe/earth, unreinforced masonry, reinforced masonry, confined masonry, wood, concrete, steel, light metal, mixed, and other.
 - **Loss curves:** The mean return period losses for average return periods of 10, 50, 100, 500, and 1,000 years.
+
+## License
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa], which requires:
+* Attribution (you must give appropriate credit, provide a link to the license, and indicate if changes were made)
+* Non-commercial (you may not use the material for commercial purposes)
+* ShareAlike (derivatives created must be made available under the same license as the original)
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
+Any deviation from these terms incur in license infringement. For commercial use of the data contained within this work, a specific license agreement must be made tailored to your use case, in such instance please contact GEM at product@globalquakemodel.org
 
 ## References
 
