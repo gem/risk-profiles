@@ -96,7 +96,7 @@ Please cite the work as follows:
 
 V. Silva, A. Calderon, M. Caruso, C. Costa, J. Dabbeek, M.C. Hoyos, Z. Karimzadeh, L. Martins, N. Paul, A. Rao, M. Simionato, C. Yepes-Estrada, H. Crowley, K. Jaiswal (2023), Country/Territory Seismic Risk Profiles of the GEM Foundation, GitHub. https://github.com/gem/risk-profiles/
 
-DOI:
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8431824.svg)](https://doi.org/10.5281/zenodo.8431824)
 
 
 # 🌟 Contributors 
