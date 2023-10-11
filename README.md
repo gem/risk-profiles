@@ -10,7 +10,7 @@
 <img src='https://img.shields.io/badge/Global_Hazard_Model-green?style=for-the-badge'>
 </a>
 
-<a href='https://docs.openquake.org/vulnerability/'>
+<a href='https://github.com/gem/global_vulnerability_model/'>
 <img src='https://img.shields.io/badge/Global_Vulnerability_Model-gray?style=for-the-badge'>
 </a>
 
