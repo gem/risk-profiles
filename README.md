@@ -85,10 +85,10 @@ The risk values presented are the results of an event-based risk analysis, where
 Users interested in these seismic risk profiles might find the following GEM Foundation products useful:
 
 * [Global Seismic Risk Map](https://www.globalquakemodel.org/products/global-seismic-risk-map)
-* [Global Seismic Hazard Map](https://www.globalquakemodel.org/products2023/global-seismic-hazard-map)
-* [Global Exposure Model](https://www.globalquakemodel.org/products/global-exposure-model)
-* [Global Vulnerability Model](https://www.globalquakemodel.org/products/global-vulnerability-model)
-* [OpenQuake engine](https://www.globalquakemodel.org/products/openquake-engine)
+* [Global Seismic Hazard Map](https://www.globalquakemodel.org/product/global-seismic-hazard-map)
+* [Global Exposure Model](https://www.globalquakemodel.org/product/global-exposure-model)
+* [Global Vulnerability Model](https://www.globalquakemodel.org/product/global-vulnerability-model)
+* [OpenQuake engine](https://www.globalquakemodel.org/product/openquake-engine)
 
 # 📚 Publications
 
