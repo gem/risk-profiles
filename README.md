@@ -139,3 +139,7 @@ For each version, a related zip file is available in the [release section](https
 ### Where can I find the models at the highest available resolution?
 
 Please contact us at product@globalquakemodel.org
+
+### What if my use case does not comply with the Creative Commons license offered?
+
+If your use case deviates from the requirements of the offered license, but still want to explore the use of the data, please contact us at license@globalquakemodel.org 
