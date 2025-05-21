@@ -1,7 +1,7 @@
-# Turkey
+# Turkiye
 
 ## Profile
-![](seismic_risk_profile_Turkey.png)
+![](seismic_risk_profile_Turkiye.png)
 
 ## Overview
 
