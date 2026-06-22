@@ -3,7 +3,7 @@
 <div align='center'>
 
 <p align="center">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Global_Earthquake_Model_Logo.png/440px-Global_Earthquake_Model_Logo.png" alt="GEM Foundation" width="300"/>
+<img src="https://cloud-storage.globalquakemodel.org/public/Logos/GEM-LOGO-Red-RGB-300DPI.jpg" alt="GEM Foundation" width="300"/>
 </p>
 
 <a href='https://hazard.openquake.org/gem/'>
