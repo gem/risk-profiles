@@ -26,23 +26,20 @@
 
 # ✨ Overview
 
-> The v2026.0.0 release for the GEM's global seismic risk profiles is now available! 🥳 🚀
+> The v2026.0.0 release for GEM's global seismic risk profiles is now available! 🥳 🚀
 
-This repository hosts the global seismic risk profiles for the world. These seismic risk profiles have been produced with the outputs from the 2023 Global Seismic Risk Model of the GEM Foundation. Useful information about the underlying datasets and overall methodology can be found in the [Global Seismic Risk Model documentation](https://docs.openquake.org/global_risk_model/).
+This repository hosts GEM's seismic risk profiles for 204 countries and territories worldwide. These seismic risk profiles have been produced with the outputs from the 2026 Global Seismic Risk Model of the GEM Foundation. Useful information about the underlying datasets and overall methodology can be found in the [Global Seismic Risk Model documentation](https://docs.openquake.org/global_risk_model/).
 
 
-# 🚀 Model versions  
+# 🚀 Profile versions  
 
-Each version of the model that is released can be accessed by changing from the `master` branch to the `tag` of a given version.
-The `master` branch could contain the work-in-progress of the next version of the model.
+Each version of the risk profiles that has been released can be accessed by changing from the `master` branch to the `tag` of a given version.
 
 | Version   | Release Notes                                                            |
 |-----------|--------------------------------------------------------------------------|
-| [v2026.0.0](https://github.com/gem/risk-profiles/tree/v2026.0.0) | Release of the Global Risk Model (June 2026). This uses the exposure version `v2026.0.0`, vulnerability version `v2026.0.0`, and the relevant hazard mosaic versions indicated per the global hazard map `v2026.1`. |
-| [v2023.0.0](https://github.com/gem/risk-profiles/tree/v2023.0.0) | Release of the Global Risk Model (June 2023). This uses the exposure version `v2023.1.0`, vulnerability version `v2023.0.0`, and the relevant hazard mosaic versions indicated per the global hazard map `v2023.1`. |
+| [v2026.0.0](https://github.com/gem/risk-profiles/tree/v2026.0.0) | Release of the Global Risk Model (June 2026). This uses the exposure version `v2026.0.0`, vulnerability version `v2026.0.0`, and the relevant hazard model versions indicated per the global hazard map `v2026.1`. |
+| [v2023.0.0](https://github.com/gem/risk-profiles/tree/v2023.0.0) | Release of the Global Risk Model (June 2023). This uses the exposure version `v2023.1.0`, vulnerability version `v2023.0.0`, and the relevant hazard model versions indicated per the global hazard map `v2023.1`. |
 | v2018.0.0 | Original version within the larger 2018 Global Risk Model release.       |
-
-Note that the risk version is not 1:1 with the versioning of the underpinning hazard, exposure, and vulnerability model inputs used.
 
 # 🌍 Region and country list
 
@@ -54,18 +51,18 @@ The following countries/territories are covered in this repository, organized by
 
 | REGION                    | COUNTRIES & TERRITORIES |
 |---------------------------|-----------|
-| Africa                    | Algeria, Angola, Benin, Botswana, Burkina_Faso, Burundi, Cameroon, Cape_Verde, Central_African_Republic, Chad, Comoros, Congo, Democratic_Republic_of_the_Congo, Djibouti, Egypt, Equatorial_Guinea, Eritrea, Eswatini, Ethiopia, Gabon, Gambia, Ghana, Guinea, Guinea_Bissau, Ivory_Coast, Kenya, Lesotho, Liberia, Libya, Madagascar, Malawi, Mali, Mauritania, Mauritius, Morocco, Mozambique, Namibia, Niger, Nigeria, Rwanda, Sao_Tome_and_Principe, Senegal, Seychelles, Sierra_Leone, Somalia, South_Africa, South_Sudan, Sudan, Tanzania, Togo, Tunisia, Uganda, Zambia, Zimbabwe |
-| Caribbean_Central_America | Anguilla, Antigua_and_Barbuda, Aruba, Bahamas, Barbados, Belize, British_Virgin_Islands, Cayman_Islands, Costa_Rica, Cuba, Dominica, Dominican_Republic, El_Salvador, Grenada, Guadeloupe, Guatemala, Haiti, Honduras, Jamaica, Martinique, Montserrat, Nicaragua, Panama, Puerto_Rico, Saint_Kitts_and_Nevis, Saint_Lucia, Saint_Vincent_and_the_Grenadines, Trinidad_and_Tobago, Turks_and_Caicos_Islands, US_Virgin_Islands |
-| Central_Asia              | Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, Uzbekistan |
-| East_Asia                 | China, Hong_Kong, Japan, Macao, North_Korea, South_Korea, Taiwan |
-| Europe                    | Albania, Andorra, Austria, Belarus, Belgium, Bosnia_and_Herzegovina, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Gibraltar, Greece, Hungary, Iceland, Ireland, Isle_of_Man, Italy, Kosovo, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Moldova, Monaco, Montenegro, Netherlands, North_Macedonia, Norway, Poland, Portugal, Romania, Serbia, Slovakia, Slovenia, Spain, Sweden, Switzerland, Turkey, Ukraine, United_Kingdom |
-| Middle_East               | Afghanistan, Armenia, Azerbaijan, Bahrain, Georgia, Iran, Iraq, Israel, Jordan, Kuwait, Lebanon, Oman, Pakistan, Palestine, Qatar, Saudi_Arabia, Syria, United_Arab_Emirates, Yemen |
-| North_America             | Canada, Mexico, United_States_of_America |
-| North_Asia                | Mongolia, Russia |
-| Oceania                   | American_Samoa, Australia, Cook_Islands, Fiji, Guam, Kiribati, Marshall_Islands, Micronesia, Nauru, New_Caledonia, New_Zealand, Niue, Northern_Mariana_Islands, Palau, Papua_New_Guinea, Samoa, Solomon_Islands, Tonga, Tuvalu, Vanuatu |
-| South_America             | Argentina, Bolivia, Brazil, Chile, Colombia, Ecuador, French_Guiana, Guyana, Paraguay, Peru, Suriname, Uruguay, Venezuela |
-| South_Asia                | Afghanistan, Bangladesh, Bhutan, India, Nepal, Pakistan, Sri_Lanka |
-| Southeast_Asia            | Brunei, Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand, Timor_Leste, Vietnam |
+| **Africa** | Algeria, Angola, Benin, Botswana, Burundi, Cabo Verde, Cameroon, Central African Republic, Comoros, Congo, Democratic Republic of the Congo, Djibouti, Egypt, Equatorial Guinea, Eritrea, Eswatini, Ethiopia, Gabon, Gambia, Ghana, Guinea, Guinea Bissau, Ivory Coast, Kenya, Lesotho, Liberia, Libya, Madagascar, Malawi, Mali, Mauritania, Mauritius, Morocco, Mozambique, Namibia, Nigeria, Rwanda, Senegal, Sierra Leone, Somalia, South Africa, South Sudan, Sudan, Tanzania, Togo, Tunisia, Uganda, Zambia, Zimbabwe |
+| **Caribbean Central America** | Anguilla, Antigua and Barbuda, Aruba, Bahamas, Barbados, Belize, British Virgin Islands, Cayman Islands, Costa Rica, Cuba, Dominica, Dominican Republic, El Salvador, Grenada, Guadeloupe, Guatemala, Haiti, Honduras, Jamaica, Martinique, Montserrat, Nicaragua, Panama, Puerto Rico, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, Trinidad and Tobago, Turks and Caicos Islands, US Virgin Islands |
+| **Central Asia** | Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, Uzbekistan |
+| **East Asia** | Mainland China, Hong Kong, Japan, Macao, North Korea, South Korea, Taiwan |
+| **Europe** | Albania, Andorra, Austria, Belarus, Belgium, Bosnia and Herzegovina, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Gibraltar, Greece, Hungary, Iceland, Ireland, Isle of Man, Italy, Kosovo, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Moldova, Monaco, Montenegro, Netherlands, North Macedonia, Norway, Poland, Portugal, Romania, Serbia, Slovakia, Slovenia, Spain, Sweden, Switzerland, Turkiye, Ukraine, United Kingdom |
+| **Middle East** | Armenia, Azerbaijan, Bahrain, Georgia, Iran, Iraq, Israel, Jordan, Kuwait, Lebanon, Oman, Palestine, Qatar, Saudi Arabia, Syria, United Arab Emirates, Yemen |
+| **North America** | Canada, Mexico, United States |
+| **North Asia** | Mongolia, Russia |
+| **Oceania** | American Samoa, Australia, Fiji, Guam, Micronesia, New Caledonia, New Zealand, Niue, Northern Mariana Islands, Palau, Papua New Guinea, Samoa, Solomon Islands, Tonga, Vanuatu |
+| **South America** | Argentina, Bolivia, Brazil, Chile, Colombia, Ecuador, French Guiana, Guyana, Paraguay, Peru, Uruguay, Venezuela |
+| **South Asia** | Afghanistan, Bangladesh, Bhutan, India, Nepal, Pakistan, Sri Lanka |
+| **Southeast Asia** | Brunei, Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand, Timor Leste, Vietnam |
 
 # 📋 Explanation of profile content
 
@@ -83,7 +80,7 @@ The risk values presented are the results of an event-based risk analysis, where
 
 # 👨‍👩‍👧‍👦 Related datasets and resources
 
-Users interested in these seismic risk profiles might find the following GEM Foundation products useful:
+Users interested in these seismic risk profiles might also find the following GEM products useful:
 
 * [Global Seismic Risk Map](https://www.globalquakemodel.org/products/global-seismic-risk-map)
 * [Global Seismic Hazard Map](https://www.globalquakemodel.org/product/global-seismic-hazard-map)
@@ -95,7 +92,7 @@ Users interested in these seismic risk profiles might find the following GEM Fou
 
 Please cite the work as follows:
 
-V. Silva, A. Calderon, M. Caruso, C. Costa, J. Dabbeek, M.C. Hoyos, Z. Karimzadeh, L. Martins, N. Paul, A. Rao, M. Simionato, C. Yepes-Estrada, H. Crowley, K. Jaiswal (2023), Country/Territory Seismic Risk Profiles of the GEM Foundation, GitHub. https://github.com/gem/risk-profiles/
+A. Rao, K. Aljawhari, M. Baiguera, A. Calderón, M. Caruso, C. Costa, D. González, A. M. B Nafeh, M. Nastasi, M. Simionato, V. Silva, C. Yepes-Estrada (2026), Country/Territory Seismic Risk Profiles of the GEM Foundation. https://github.com/gem/risk-profiles/
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8431824.svg)](https://doi.org/10.5281/zenodo.8431824)
 
