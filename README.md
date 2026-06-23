@@ -26,7 +26,7 @@
 
 # ✨ Overview
 
-> The v2023.0.0 release for the GEM's global seismic risk profiles is now available! 🥳 🚀
+> The v2026.0.0 release for the GEM's global seismic risk profiles is now available! 🥳 🚀
 
 This repository hosts the global seismic risk profiles for the world. These seismic risk profiles have been produced with the outputs from the 2023 Global Seismic Risk Model of the GEM Foundation. Useful information about the underlying datasets and overall methodology can be found in the [Global Seismic Risk Model documentation](https://docs.openquake.org/global_risk_model/).
 
@@ -38,8 +38,9 @@ The `master` branch could contain the work-in-progress of the next version of th
 
 | Version   | Release Notes                                                            |
 |-----------|--------------------------------------------------------------------------|
-| v2018.0.0 | Original version within the larger 2018 Global Risk Model release.       |
+| [v2026.0.0](https://github.com/gem/risk-profiles/tree/v2026.0.0) | Release of the Global Risk Model (June 2026). This uses the exposure version `v2026.0.0`, vulnerability version `v2026.0.0`, and the relevant hazard mosaic versions indicated per the global hazard map `v2026.1`. |
 | [v2023.0.0](https://github.com/gem/risk-profiles/tree/v2023.0.0) | Release of the Global Risk Model (June 2023). This uses the exposure version `v2023.1.0`, vulnerability version `v2023.0.0`, and the relevant hazard mosaic versions indicated per the global hazard map `v2023.1`. |
+| v2018.0.0 | Original version within the larger 2018 Global Risk Model release.       |
 
 Note that the risk version is not 1:1 with the versioning of the underpinning hazard, exposure, and vulnerability model inputs used.
 
