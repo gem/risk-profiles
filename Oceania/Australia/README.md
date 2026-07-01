@@ -67,6 +67,16 @@ This work is licensed under a
 
 Any deviation from these terms incur in license infringement. For commercial use of the data contained within this work, a specific license agreement must be made tailored to your use case, in such instance please contact GEM at product@globalquakemodel.org
 
+## Boundaries
+
+**Boundary data source:** ASGS
+
+**Publisher:** Australian Statistical Geography Standard (ASGS)
+
+**Link:** https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/access-and-downloads/digital-boundary-files
+
+The boundaries and names shown and the designations used on the maps on this site do not imply official endorsement or acceptance by the GEM Foundation.
+
 ## References
 
 [^1]: National Geophysical Data Center / World Data Service (NGDC/WDS): NCEI/WDS Global Significant Earthquake Database. NOAA National Centers for Environmental Information. doi:[10.7289/V5TD9V7K](https://doi.org/10.7289/V5TD9V7K)
