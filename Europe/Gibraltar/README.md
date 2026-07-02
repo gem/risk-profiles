@@ -69,7 +69,7 @@ Any deviation from these terms incur in license infringement. For commercial use
 
 ## Boundaries
 
-**Boundary data source:** Cesus of Gibraltar 2022
+**Boundary data source:** Census of Gibraltar 2022
 
 **Publisher:** Statistics Office HM Goverment of Gibraltar
 
