@@ -67,6 +67,16 @@ This work is licensed under a
 
 Any deviation from these terms incur in license infringement. For commercial use of the data contained within this work, a specific license agreement must be made tailored to your use case, in such instance please contact GEM at product@globalquakemodel.org
 
+## Boundaries
+
+**Boundary data source:** World Bank
+
+**Publisher:** World Bank
+
+**Link:** https://datacatalog.worldbank.org/search/dataset/0038272/world-bank-official-boundaries
+
+The boundaries and names shown and the designations used on the maps on this site do not imply official endorsement or acceptance by the GEM Foundation.
+
 ## References
 
 [^1]: National Geophysical Data Center / World Data Service (NGDC/WDS): NCEI/WDS Global Significant Earthquake Database. NOAA National Centers for Environmental Information. doi:[10.7289/V5TD9V7K](https://doi.org/10.7289/V5TD9V7K)
